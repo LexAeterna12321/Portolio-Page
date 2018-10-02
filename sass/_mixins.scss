@@ -1,0 +1,15 @@
+@mixin bgi-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin main-btn($font-color, $bgc-color) {
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: 2px solid $font-color;
+    background-color: $bgc-color;
+    color: $font-color;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
