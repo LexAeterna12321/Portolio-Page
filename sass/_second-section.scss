@@ -1,7 +1,7 @@
 .second-section {
-    height: 80vh;
+    padding: 0;
 
-    .row {
+    & .row {
         height: 50%;
     }
 
@@ -10,7 +10,7 @@
         position: relative;
         overflow: hidden;
 
-        img {
+        & img {
             position: absolute;
             min-width: 100%;
             min-height: 100%;
@@ -21,18 +21,18 @@
 
     }
 
-    .first-row__informations,
-    .second-row__informations {
+    & .first-row__informations,
+    & .second-row__informations {
         padding-left: 5%;
         padding-top: 3%;
         color: #fff;
     }
 
-    .first-row__informations {
+    & .first-row__informations {
         background-color: #e9724c;
     }
 
-    .second-row__informations {
+    & .second-row__informations {
         background-color: #e3ae57;
         ;
     }

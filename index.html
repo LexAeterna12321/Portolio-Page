@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <header class="mainHeader">
             <nav class="navbar navbar-dark navbar-expand-md bg-primary">
                 <a href="#" class="nav-brand m-3">Stimulus</a>
@@ -30,7 +30,7 @@
                     </ul>
                 </div>
             </nav>
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row no-gutters">
                     <div class="col-md-6">
                         <div class="homePageImg"></div>
@@ -50,7 +50,7 @@
                 </div>
             </div>
         </header>
-        <section class="container-fluid first-section">
+        <section class="first-section">
             <div class="row no-gutters first-section__first-row">
 
                 <div class="col-md-6">
@@ -65,17 +65,17 @@
                         quis porta odio odio
                         at velit.</p>
                 </div>
-                <div class="col-md-3 about__img"">
-                <img src=" images/about-img.jpg" class=" alt="">
-            </div>
-            <div class="
+                <div class="col-md-3 about__img">
+                    <img src=" images/about-img.jpg">
+                </div>
+                <div class="
                     col-md-3">
                     <h2>My Skills</h2>
                     <h6>Photoshop . HTML CSS JS . Web Design</h6>
                     <div class="progressBars">
-                        <strong>bla</strong><span>1</span>
-                        <strong>bla</strong><span>2</span>
-                        <strong>bla</strong><span>3</span>
+                        <div class="bar"> <strong>Photoshop</strong><span>20%</span></div>
+                        <div class="bar"> <strong> HTML CSS JS</strong><span>55%</span></div>
+                        <div class="bar"> <strong>Web Design</strong><span>49%</span></div>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
             </div>
 
         </section>
-        <section class="container-fluid second-section">
+        <section class="second-section">
             <div class="row no-gutters second-section__first-row">
                 <div class="col-md-6 second-section__img--experience">
                     <img src="images/experience-img.jpg" alt="">
@@ -148,21 +148,40 @@
                     <img src="images/education-img.jpg" alt="">
                 </div>
             </div>
-            <section class="third-section">
-                <i class="fas fa-star third-section__i"></i>
-                <h2 class="third-section__h2">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in
-                    vestibulum
-                    quis, auctor et orci.</h2>
-                <h6 class="third-section__h6">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu,
-                    iaculis
-                    congue sem.</h6>
-            </section>
+
+
         </section>
-
-
-
-
-
+        <section class="third-section">
+            <i class="fas fa-star third-section__i"></i>
+            <h2 class="third-section__h2">Proin lobortis eu diam et facilisis. Fusce nisi nibh, molestie in
+                vestibulum
+                quis, auctor et orci.</h2>
+            <h6 class="third-section__h6">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu,
+                iaculis
+                congue sem.</h6>
+        </section>
+        <section class="fourth-section">
+            <div class="row">
+                <div class="fourth-section__form col-md-5">
+                    <form action="#">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <textarea name="message" id="#" cols="30" rows="10" placeholder="Enter your message..."></textarea>
+                        <button>Send</button>
+                    </form>
+                </div>
+                <div class="fourth-section__img col-md-4"><img src="images/contact-img.jpg" class="background-image" id="meh"
+                        alt=""></div>
+                <div class="fourth-section__contact col-md-3">
+                    <h6>Visit my office</h6>
+                    <p>456 New Street 22000, New York City, USA</p>
+                    <h6>Contact.</h6>
+                    <p>01-0110-0220</p>
+                    <p>hello@company.co</p>
+                    <p>company.co</p>
+                </div>
+            </div>
+        </section>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

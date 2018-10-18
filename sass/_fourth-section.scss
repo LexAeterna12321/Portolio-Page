@@ -1,0 +1,55 @@
+.fourth-section {
+    position: relative;
+
+    &__form {
+        background-color: #000;
+
+        & input,
+        & textarea,
+        & button {
+            display: block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #e9724c;
+            border: none;
+            color: #fff;
+
+            &::placeholder {
+                color: #fff;
+            }
+        }
+
+        & button {
+            @include main-btn(#fff, #e9724c);
+        }
+    }
+
+    &__img {
+        top: 0;
+        left: 0;
+        position: relative;
+        overflow: hidden;
+        height: 600px;
+
+        & .background-image {
+            display: block;
+            min-width: 100%;
+            min-height: 100%;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    &__contact {
+        background-color: #000;
+        color: #fff;
+
+        & h6,
+        & p {
+            padding: 2%;
+            margin: 2%;
+        }
+    }
+}
